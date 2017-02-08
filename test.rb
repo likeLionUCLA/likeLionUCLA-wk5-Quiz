@@ -1,10 +1,10 @@
 # Q1: Create a fizzBuzz method takes only one argument : def fizzBuzz (number)
 def fizzBuzz (num)
-  if num%15
+  if num%15 == 0
     puts "fizzBuzz"
-  elsif num%3
+  elsif num%3 == 0
     puts "fizz"
-  elsif num%5
+  elsif num%5 == 0
     puts "buzz"
   else
     puts num
